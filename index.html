@@ -9,9 +9,22 @@
 <body>
     <header>
         <nav>
-            <img src="./images/My Logo.png" alt="">
-            <img src="./images/Icon - Menu.png" alt="">
+            <img src="./images/My Logo.png" class="mylogo" alt="">
+            <img src="./images/Icon - Menu.png" class="hamburger" onclick="toggleMenu()" alt="">
+            <img src="./images/Icon.png" onclick="toggleMenu()" class="crossicon" alt="">
+            
         </nav>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <div class="line"></div>
+                <li><a href="#">About</a></li>
+                <div class="line"></div>
+                <li><a href="#">Contact</a></li>
+                <div class="line"></div>
+                
+            </ul>
+        </div>
         <section class="header">
             <div class="heading">
                 <h1>Hey There. <br>I'm Usman.</h1>
@@ -31,5 +44,6 @@
             </div>
         </section>
     </header>
+    <script src="/index.js"></script>
 </body>
 </html>
